@@ -1,5 +1,9 @@
 # speak
 
+[![Claude Code mod](https://img.shields.io/badge/Claude%20Code-mod-8A7FBF)](../../README.md#claude-code-mods)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![macOS](https://img.shields.io/badge/platform-macOS-lightgrey?logo=apple&logoColor=white)](#install)
+
 Reads Claude's final reply aloud with macOS `say`. Code blocks, tables, links and markdown markup are stripped first so it reads like prose. The voice is chosen from the reply's language (Premium, then Enhanced voices preferred); when the language is unclear or already matches your system voice, the system voice is kept.
 
 ![speak status line](../../docs/media/speak-status.png)

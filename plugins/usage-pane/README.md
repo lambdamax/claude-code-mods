@@ -1,5 +1,8 @@
 # usage-pane
 
+[![Claude Code mod](https://img.shields.io/badge/Claude%20Code-mod-8A7FBF)](../../README.md#claude-code-mods)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A live usage pane beside the chat. It shows, updating as you work:
 
 - **Usage**: model, tokens of the last prompt, API-equivalent spend, context fill, session clock

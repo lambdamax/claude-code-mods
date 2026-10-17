@@ -1,5 +1,8 @@
 # context-bar
 
+[![Claude Code mod](https://img.shields.io/badge/Claude%20Code-mod-8A7FBF)](../../README.md#claude-code-mods)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A stacked context-window bar above the prompt, one color per category of the `/context` breakdown (system prompt, system tools, MCP instructions, custom agents, skills, messages), with a legend and the total against your window size.
 
 ![context bar](../../docs/media/context-bar.png)
