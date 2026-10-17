@@ -1,9 +1,8 @@
 # claude-code-mods
 
-[![License: MIT](https://img.shields.io/github/license/mattsebastianh/claude-code-mods)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/mattsebastianh/claude-code-mods)](../../commits/main)
-[![Stars](https://img.shields.io/github/stars/mattsebastianh/claude-code-mods?style=flat)](../../stargazers)
-[![Issues](https://img.shields.io/github/issues/mattsebastianh/claude-code-mods)](../../issues)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Claude Code plugin marketplace](https://img.shields.io/badge/Claude%20Code-plugin%20marketplace-D97757?logo=anthropic&logoColor=white)](#install)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](plugins)
 
 A collection of [Claude Code](https://claude.com/claude-code) mods: small plugins that change Claude's own interface. Each mod installs on its own from this repository, which is a plugin marketplace.
 
