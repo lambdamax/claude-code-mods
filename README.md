@@ -7,8 +7,6 @@
 
 A collection of [Claude Code](https://claude.com/claude-code) mods: small plugins that change Claude's own interface. Each mod installs on its own from this repository, which is a plugin marketplace.
 
-![usage-pane tracking background subagents live](docs/media/usage-pane-demo.gif)
-
 | Mod | What it adds | Command | Platform |
 | --- | --- | --- | --- |
 | [`usage-pane`](plugins/usage-pane) | A live pane beside the chat: tokens, API-equivalent spend, context fill, recent prompts, tool calls and subagents | `/usage-pane` | any |
