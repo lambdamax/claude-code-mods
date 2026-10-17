@@ -23,4 +23,4 @@ Every mod needs at least one `*.test.ts(x)` for the behaviour it adds. A mod tha
 - Keep a mod self-contained: no reads outside its own folder, no network calls, no secrets. A mod that guards (denies tool calls or prompts) hooks with `.catch` so a failure can't silently pass or block.
 - Match the surrounding style: comments explain why, not what.
 - Bump `version` in the mod's `plugin.json` and the marketplace entry together, and add a line to `CHANGELOG.md`.
-- Never commit raw screen recordings (they're git-ignored); optimized screenshots go in `docs/media/`.
+- Never commit raw screen recordings (`.mov`/`.mp4` are git-ignored); convert demos to a short GIF under ~3 MB and optimized screenshots, and put them in `docs/media/`.

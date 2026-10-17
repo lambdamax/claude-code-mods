@@ -7,6 +7,8 @@ A live usage pane beside the chat. It shows, updating as you work:
 - **Tool calls**: running and recent calls with how long each took
 - **Subagents**: every subagent with its model, tokens and clock; agents waiting on background work show a hollow dot and keep their clock running
 
+![usage pane tracking background subagents](../../docs/media/usage-pane-demo.gif)
+
 ![usage pane](../../docs/media/usage-pane-subagents.png)
 
 ## Install

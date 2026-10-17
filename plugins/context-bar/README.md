@@ -2,7 +2,7 @@
 
 A stacked context-window bar above the prompt, one color per category of the `/context` breakdown (system prompt, system tools, MCP instructions, custom agents, skills, messages), with a legend and the total against your window size.
 
-![context bar](../../docs/media/usage-pane-and-context-bar.png)
+![context bar](../../docs/media/context-bar.png)
 
 ## Install
 

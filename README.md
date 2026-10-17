@@ -2,7 +2,7 @@
 
 A collection of [Claude Code](https://claude.com/claude-code) mods: small plugins that change Claude's own interface. Each mod installs on its own from this repository, which is a plugin marketplace.
 
-![Usage pane, context bar and prompt, running together](docs/media/usage-pane-and-context-bar.png)
+![usage-pane tracking background subagents live](docs/media/usage-pane-demo.gif)
 
 | Mod | What it adds | Command | Platform |
 | --- | --- | --- | --- |
@@ -41,11 +41,13 @@ Repeat `--plugin-dir` to load several.
 
 ## Demos
 
-| Usage pane tracking subagents | `/speak` status |
-| --- | --- |
-| ![Subagents block with waiting agents](docs/media/usage-pane-subagents.png) | ![speak status line](docs/media/speak-status.png) |
+**`usage-pane`**: two background subagents launch, wait (hollow dot, clock still ticking) and finish (green), while the Usage, Prompts and Tool calls cards update live.
 
-<!-- TODO(before publish): add screen-recording links (upload the .mov files as GitHub release assets or drag them into this file on github.com). -->
+![usage-pane tracking background subagents live](docs/media/usage-pane-demo.gif)
+
+| `usage-pane` | `context-bar` | `speak` |
+| --- | --- | --- |
+| ![Subagents block with waiting agents](docs/media/usage-pane-subagents.png) | ![Stacked context-window bar and legend](docs/media/context-bar.png) | ![speak status line](docs/media/speak-status.png) |
 
 ## Compatibility
 
