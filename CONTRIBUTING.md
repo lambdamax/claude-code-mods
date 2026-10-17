@@ -4,7 +4,7 @@ Issues and pull requests are welcome.
 
 ## Layout
 
-One folder per mod under `plugins/`, each a complete plugin (`.claude-plugin/plugin.json`, `hooks/hooks.json`, a hooks module, tests, README, LICENSE). New mods also need an entry in `.claude-plugin/marketplace.json`.
+One folder per mod under `plugins/`, each a complete plugin (`.claude-plugin/plugin.json`, `hooks/hooks.json`, a hooks module, tests, README, LICENSE). New mods also need an entry in `.claude-plugin/marketplace.json` and a line in `plugins/all-mods/.claude-plugin/plugin.json` `dependencies` so the bundle installs them.
 
 ## Before opening a PR
 

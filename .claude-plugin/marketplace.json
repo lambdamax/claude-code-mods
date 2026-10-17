@@ -1,11 +1,25 @@
 {
   "name": "claude-code-mods",
-  "owner": { "name": "mattsebastianh" },
+  "owner": {
+    "name": "mattsebastianh"
+  },
   "metadata": {
     "description": "A collection of Claude Code mods: a live usage pane, a context-window bar and spoken replies.",
     "version": "0.1.0"
   },
   "plugins": [
+    {
+      "name": "all-mods",
+      "source": "./plugins/all-mods",
+      "description": "The whole collection in one install: usage-pane, context-bar and speak",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": "bundle",
+      "keywords": [
+        "bundle",
+        "mods"
+      ]
+    },
     {
       "name": "usage-pane",
       "source": "./plugins/usage-pane",
@@ -13,7 +27,14 @@
       "version": "0.1.0",
       "license": "MIT",
       "category": "monitoring",
-      "keywords": ["usage", "tokens", "cost", "pane", "subagents", "mod"]
+      "keywords": [
+        "usage",
+        "tokens",
+        "cost",
+        "pane",
+        "subagents",
+        "mod"
+      ]
     },
     {
       "name": "context-bar",
@@ -22,7 +43,12 @@
       "version": "0.1.0",
       "license": "MIT",
       "category": "monitoring",
-      "keywords": ["context", "tokens", "statusbar", "mod"]
+      "keywords": [
+        "context",
+        "tokens",
+        "statusbar",
+        "mod"
+      ]
     },
     {
       "name": "speak",
@@ -31,7 +57,13 @@
       "version": "0.1.0",
       "license": "MIT",
       "category": "productivity",
-      "keywords": ["tts", "voice", "accessibility", "macos", "mod"]
+      "keywords": [
+        "tts",
+        "voice",
+        "accessibility",
+        "macos",
+        "mod"
+      ]
     }
   ]
 }

@@ -12,10 +12,17 @@ A collection of [Claude Code](https://claude.com/claude-code) mods: small plugin
 | [`usage-pane`](plugins/usage-pane) | A live pane beside the chat: tokens, API-equivalent spend, context fill, recent prompts, tool calls and subagents | `/usage-pane` | any |
 | [`context-bar`](plugins/context-bar) | A stacked context-window bar above the prompt, one color per `/context` category | `/context-bar` | any |
 | [`speak`](plugins/speak) | Reads Claude's final reply aloud, picking a voice by language | `/speak` | macOS |
+| [`all-mods`](plugins/all-mods) | Bundle: installs the three mods above in one step | none | macOS (via `speak`) |
 
 ## Install
 
-In a Claude Code terminal session, add the marketplace and install what you want:
+**Everything at once** (installs all three mods):
+
+```
+/plugin install all-mods --marketplace mattsebastianh/claude-code-mods
+```
+
+**Or pick what you want**, in a Claude Code terminal session:
 
 ```
 /plugin install usage-pane --marketplace mattsebastianh/claude-code-mods
@@ -26,7 +33,7 @@ In a Claude Code terminal session, add the marketplace and install what you want
 Answer `y` to "Add marketplace?", then pick a scope (user scope keeps the mod in every session). From a shell:
 
 ```
-claude plugin install usage-pane --marketplace mattsebastianh/claude-code-mods
+claude plugin install all-mods --marketplace mattsebastianh/claude-code-mods
 ```
 
 In the desktop app, where `/plugin` doesn't run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `mattsebastianh/claude-code-mods`, then **Add plugin**.

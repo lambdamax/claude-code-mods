@@ -1,0 +1,13 @@
+{
+  "name": "all-mods",
+  "version": "0.1.0",
+  "description": "Installs the whole collection in one step: usage-pane, context-bar and speak",
+  "author": {
+    "name": "mattsebastianh",
+    "email": "111330065+mattsebastianh@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/mattsebastianh/claude-code-mods",
+  "repository": "https://github.com/mattsebastianh/claude-code-mods",
+  "license": "MIT",
+  "dependencies": ["usage-pane", "context-bar", "speak"]
+}
