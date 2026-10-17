@@ -2,7 +2,7 @@
 
 All notable changes are listed here. Versions follow [SemVer](https://semver.org/) per mod.
 
-## [0.1.0] - Unreleased
+## [0.1.0] - 2026-10-17
 
 Initial collection.
 
