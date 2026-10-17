@@ -12,7 +12,7 @@ A live usage pane beside the chat. It shows, updating as you work:
 
 ![usage pane tracking background subagents](../../docs/media/usage-pane-demo.gif)
 
-![usage pane](../../docs/media/usage-pane-subagents.png)
+<img src="../../docs/media/usage-pane.png" alt="usage pane: usage, prompts, tool calls and subagents" width="300">
 
 ## Install
 

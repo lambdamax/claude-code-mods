@@ -6,7 +6,7 @@
 
 Reads Claude's final reply aloud with macOS `say`. Code blocks, tables, links and markdown markup are stripped first so it reads like prose. The voice is chosen from the reply's language (Premium, then Enhanced voices preferred); when the language is unclear or already matches your system voice, the system voice is kept.
 
-![speak status line](../../docs/media/speak-status.png)
+<img src="../../docs/media/speak-command.png" alt="/speak command output" width="300"> <img src="../../docs/media/speak-status.png" alt="speak status line" width="300">
 
 **macOS only**: it uses `say` and `osascript`.
 

@@ -51,13 +51,15 @@ Repeat `--plugin-dir` to load several.
 
 ## Demos
 
-**`usage-pane`**: two background subagents launch, wait (hollow dot, clock still ticking) and finish (green), while the Usage, Prompts and Tool calls cards update live.
+**`usage-pane`** tracking two background subagents as they launch, wait (hollow dot, clock still ticking) and finish (green):
 
 ![usage-pane tracking background subagents live](docs/media/usage-pane-demo.gif)
 
-| `usage-pane` | `context-bar` | `speak` |
-| --- | --- | --- |
-| ![Subagents block with waiting agents](docs/media/usage-pane-subagents.png) | ![Stacked context-window bar and legend](docs/media/context-bar.png) | ![speak status line](docs/media/speak-status.png) |
+### The three mods
+
+| `usage-pane` | `context-bar` and `speak` |
+| --- | --- |
+| <img src="docs/media/usage-pane.png" alt="usage-pane: usage, prompts, tool calls and subagents" width="300"> | **`context-bar`**: one color per `/context` category, above the prompt<br><img src="docs/media/context-bar.png" alt="context-bar: stacked context-window bar and legend" width="620"><br><br>**`speak`**: toggle with `/speak`; the status line shows what applies right now<br><img src="docs/media/speak-command.png" alt="/speak command output" width="300"> <img src="docs/media/speak-status.png" alt="speak status line" width="300"> |
 
 ## Compatibility
 
