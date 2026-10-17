@@ -1,0 +1,37 @@
+{
+  "name": "claude-code-mods",
+  "owner": { "name": "mattsebastianh" },
+  "metadata": {
+    "description": "A collection of Claude Code mods: a live usage pane, a context-window bar and spoken replies.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "usage-pane",
+      "source": "./plugins/usage-pane",
+      "description": "Live usage pane beside the chat: last prompt tokens, API-equivalent spend, context fill, tool calls and subagents",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": "monitoring",
+      "keywords": ["usage", "tokens", "cost", "pane", "subagents", "mod"]
+    },
+    {
+      "name": "context-bar",
+      "source": "./plugins/context-bar",
+      "description": "Stacked context-window bar above the prompt, one color per /context category",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": "monitoring",
+      "keywords": ["context", "tokens", "statusbar", "mod"]
+    },
+    {
+      "name": "speak",
+      "source": "./plugins/speak",
+      "description": "Speak Claude's final reply aloud with macOS say, with pause, resume and language-aware voices",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["tts", "voice", "accessibility", "macos", "mod"]
+    }
+  ]
+}

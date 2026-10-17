@@ -1,0 +1,13 @@
+{
+  "name": "usage-pane",
+  "version": "0.1.0",
+  "description": "Live usage pane beside the chat: last prompt tokens, API-equivalent spend, context fill, tool calls and session time",
+  "author": {
+    "name": "mattsebastianh",
+    "email": "111330065+mattsebastianh@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/mattsebastianh/claude-code-mods/tree/main/plugins/usage-pane",
+  "repository": "https://github.com/mattsebastianh/claude-code-mods",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

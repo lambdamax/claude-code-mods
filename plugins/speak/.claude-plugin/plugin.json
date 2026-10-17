@@ -1,0 +1,12 @@
+{
+  "name": "speak",
+  "version": "0.1.0",
+  "description": "Speak Claude's final reply aloud with macOS say; /speak toggles it, /speak stop silences it",
+  "author": {
+    "name": "mattsebastianh",
+    "email": "111330065+mattsebastianh@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/mattsebastianh/claude-code-mods/tree/main/plugins/speak",
+  "repository": "https://github.com/mattsebastianh/claude-code-mods",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "context-bar",
+  "version": "0.1.0",
+  "description": "Stacked context-window bar above the prompt, one color per /context category; toggle with /context-bar",
+  "author": {
+    "name": "mattsebastianh",
+    "email": "111330065+mattsebastianh@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/mattsebastianh/claude-code-mods/tree/main/plugins/context-bar",
+  "repository": "https://github.com/mattsebastianh/claude-code-mods",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
