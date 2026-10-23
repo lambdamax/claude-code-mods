@@ -17,7 +17,7 @@ A live usage pane beside the chat. It shows, updating as you work:
 ## Install
 
 ```
-/plugin install usage-pane --marketplace mattsebastianh/claude-code-mods
+/plugin install usage-pane --marketplace lambdamax/claude-code-mods
 ```
 
 ## Use

@@ -13,7 +13,7 @@ Reads Claude's final reply aloud with macOS `say`. Code blocks, tables, links an
 ## Install
 
 ```
-/plugin install speak --marketplace mattsebastianh/claude-code-mods
+/plugin install speak --marketplace lambdamax/claude-code-mods
 ```
 
 ## Use

@@ -19,31 +19,31 @@ A collection of [Claude Code](https://claude.com/claude-code) mods: small plugin
 **Everything at once** (installs all three mods):
 
 ```
-/plugin install all-mods --marketplace mattsebastianh/claude-code-mods
+/plugin install all-mods --marketplace lambdamax/claude-code-mods
 ```
 
 **Or pick what you want**, in a Claude Code terminal session:
 
 ```
-/plugin install usage-pane --marketplace mattsebastianh/claude-code-mods
-/plugin install context-bar --marketplace mattsebastianh/claude-code-mods
-/plugin install speak --marketplace mattsebastianh/claude-code-mods
+/plugin install usage-pane --marketplace lambdamax/claude-code-mods
+/plugin install context-bar --marketplace lambdamax/claude-code-mods
+/plugin install speak --marketplace lambdamax/claude-code-mods
 ```
 
 Answer `y` to "Add marketplace?", then pick a scope (user scope keeps the mod in every session). From a shell:
 
 ```
-claude plugin install all-mods --marketplace mattsebastianh/claude-code-mods
+claude plugin install all-mods --marketplace lambdamax/claude-code-mods
 ```
 
-In the desktop app, where `/plugin` doesn't run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `mattsebastianh/claude-code-mods`, then **Add plugin**.
+In the desktop app, where `/plugin` doesn't run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `lambdamax/claude-code-mods`, then **Add plugin**.
 
 Each mod is a hooks-only plugin: once installed it is active in that session with no reload.
 
 ### Try it without installing
 
 ```
-git clone https://github.com/mattsebastianh/claude-code-mods
+git clone https://github.com/lambdamax/claude-code-mods
 claude --plugin-dir ./claude-code-mods/plugins/usage-pane
 ```
 

@@ -10,7 +10,7 @@ A stacked context-window bar above the prompt, one color per category of the `/c
 ## Install
 
 ```
-/plugin install context-bar --marketplace mattsebastianh/claude-code-mods
+/plugin install context-bar --marketplace lambdamax/claude-code-mods
 ```
 
 ## Use

@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "Installs the whole collection in one step: usage-pane, context-bar and speak",
   "author": {
-    "name": "mattsebastianh",
-    "email": "111330065+mattsebastianh@users.noreply.github.com"
+    "name": "lambdamax",
+    "email": "111330065+lambdamax@users.noreply.github.com"
   },
-  "homepage": "https://github.com/mattsebastianh/claude-code-mods",
-  "repository": "https://github.com/mattsebastianh/claude-code-mods",
+  "homepage": "https://github.com/lambdamax/claude-code-mods",
+  "repository": "https://github.com/lambdamax/claude-code-mods",
   "license": "MIT",
   "dependencies": ["usage-pane", "context-bar", "speak"]
 }

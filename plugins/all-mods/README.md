@@ -6,13 +6,13 @@
 The whole [collection](../../README.md) in one install. This plugin has no hooks of its own: it depends on [`usage-pane`](../usage-pane), [`context-bar`](../context-bar) and [`speak`](../speak), and Claude Code installs them with it.
 
 ```
-/plugin install all-mods --marketplace mattsebastianh/claude-code-mods
+/plugin install all-mods --marketplace lambdamax/claude-code-mods
 ```
 
 From a shell:
 
 ```
-claude plugin install all-mods --marketplace mattsebastianh/claude-code-mods
+claude plugin install all-mods --marketplace lambdamax/claude-code-mods
 ```
 
 `speak` only works on macOS; on other platforms install the mods one by one instead.
